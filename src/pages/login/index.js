@@ -47,7 +47,7 @@ const LoginForm = () => {
     <div className="login-container">
       <form className="login-form" onSubmit={handleSubmit}>
         <img
-          src={"https://res.cloudinary.com/duovxefh6/image/upload/v1727257549/WhatsApp_Image_2024-09-25_at_12.35.51_f6bf2992_yagbkw.jpg"}
+          src={"https://res.cloudinary.com/dbz6ebekj/image/upload/v1730539529/AppLogo_weochu.png"}
           alt="Logo"
           className="login-logo"
           width="120"
