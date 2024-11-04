@@ -44,9 +44,9 @@ function SideNav() {
         style={{ display: "flex", flexDirection: "column", gap: "5px" }}
       >
         {}
-        <div className="logout btn btn-danger" onClick={()=>logOut()}>
+        {/* <div className="logout btn btn-danger" onClick={()=>logOut()}>
           <span className="navlabel"> Logout</span>
-        </div>
+        </div> */}
       </div>
     </div>
   );

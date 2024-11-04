@@ -20,8 +20,10 @@ import UniVideos from "../../pages/UniPage/UniVideos/UniVideos";
 import VideoQuestions from "../../pages/UniPage/Lectures/VideoQuestions/VideoQuestions";
 import LectureQuestions from "../../pages/UniPage/Lectures/LecturesQuestions/LecturesQuestions";
 
-export const links = localStorage.getItem("moreenglishlogin")
-  ? [
+export const links = 
+// localStorage.getItem("moreenglishlogin")
+//   ? 
+  [
       {
         id: 1,
         label: "الجامعه",
@@ -252,13 +254,13 @@ export const links = localStorage.getItem("moreenglishlogin")
       //   component: CheckCard,
       // },
     ]
-  : [
-      {
-        id: 4,
-        label: "Login",
-        route: "*",
-        icon: <FaUser />,
-        component: Login,
-        hidden: true,
-      },
-    ];
+  // : [
+  //     {
+  //       id: 4,
+  //       label: "Login",
+  //       route: "*",
+  //       icon: <FaUser />,
+  //       component: Login,
+  //       hidden: true,
+  //     },
+  //   ];

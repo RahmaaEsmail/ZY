@@ -23,15 +23,14 @@ function Header() {
             className="profile-image"
           />
           <span className="profile-name">ZY</span>
-          <i className="arrow-down"></i>
+          {/* <i className="arrow-down"></i> */}
         </div>
-        {dropdownOpen && (
+        {/* {dropdownOpen && (
           <ul className="dropdown-menu">
-            {/* <li>Profile</li>
-            <li>Settings</li> */}
+           
             <li onClick={()=>logOut()}>Logout</li>
           </ul>
-        )}
+        )} */}
       </div>
     </header>
   );
